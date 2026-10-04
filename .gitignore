@@ -1,0 +1,50 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Third-party source and downloaded model weights
+/external/
+/sam2/
+/SAM2/
+*.pt
+*.pth
+
+# Confidential input data and microscope files
+/patches_data*/
+/data/
+/raw_data/
+*.npz
+*.npy
+*.vsi
+*.tif
+*.tiff
+
+# Local study state and generated output
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+/optuna_results/
+/final_report/
+/final_evaluation/
+/final_test_evaluation/
+/final_test_rerun_trial29_offset095/
+/optuna_complete_summary.csv
+/optimization_history.html
+/param_importances.html
+/parallel_coordinate.html
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

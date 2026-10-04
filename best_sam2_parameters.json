@@ -1,0 +1,36 @@
+{
+  "optimized_parameters": {
+    "points_per_side": 16,
+    "pred_iou_thresh": 0.45,
+    "stability_score_thresh": 0.9,
+    "mask_threshold": 0.30000000000000004,
+    "crop_n_layers": 0,
+    "box_nms_thresh": 0.4,
+    "crop_overlap_ratio": 0.4,
+    "min_mask_region_area": 559.5914560704846,
+    "use_m2m": false
+  },
+  "effective_parameters": {
+    "points_per_side": 16,
+    "pred_iou_thresh": 0.45,
+    "stability_score_thresh": 0.9,
+    "mask_threshold": 0.30000000000000004,
+    "min_mask_region_area": 560,
+    "crop_n_layers": 0,
+    "crop_n_points_downscale_factor": 1,
+    "box_nms_thresh": 0.4,
+    "crop_overlap_ratio": 0.4,
+    "use_m2m": false,
+    "stability_score_offset": 0.95
+  },
+  "selected_trial_number": 29,
+  "final_weighted_score": 0.3121007848903471,
+  "optimization_info": {
+    "total_trials": 33,
+    "completed_trials": 9,
+    "optimization_time_hours": 98.46709030601713,
+    "validation_method": "LOSO_complete",
+    "exclude_borders": true,
+    "border_margin": 0
+  }
+}

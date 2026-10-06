@@ -1,7 +1,6 @@
 # SAM2 parameter optimization for petrographic segmentation
 
-Code for the paper *How Far Can Parameter Tuning Take Us? Assessing SAM2
-Optimization Limits in Petrographic Segmentation*.
+Code for the paper *Evaluating SAM2 Automatic Mask Generation for Petrographic Thin Sections: Effects of Parameter Tuning*.
 
 The code tunes SAM2 automatic mask generation parameters using leave-one-slide-out
 (LOSO) validation. It then compares the selected parameters (BEST/TUNED) with

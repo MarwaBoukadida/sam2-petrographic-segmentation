@@ -2,9 +2,7 @@
 
 Code for the paper *Evaluating SAM2 Automatic Mask Generation for Petrographic Thin Sections: Effects of Parameter Tuning*.
 
-The code tunes SAM2 automatic mask generation parameters using leave-one-slide-out
-(LOSO) validation. It then compares the selected parameters (BEST/TUNED) with
-SAM2 DEFAULT on separate test patches. Model weights are not trained.
+The code evaluates SAM2 automatic mask-generation parameter configurations across five tuning slides and then compares the selected configuration (BEST/TUNED) with the SAM2 DEFAULT configuration on a separate held-out thin section. The pretrained SAM2 model is kept fixed; no model training or fine-tuning is performed.
 
 ## Installation
 
